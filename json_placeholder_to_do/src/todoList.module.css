@@ -1,0 +1,23 @@
+:root {
+	--color-1: #2cccc3;
+	--color-2: #facd3d;
+}
+
+.todoList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 96%;
+	list-style: none;
+}
+.item {
+	padding: 8px 16px;
+	margin-bottom: 8px;
+	width: 100%;
+	background: var(--color-2);
+	border-radius: 16px;
+}
+
+.itemDone {
+	background: var(--color-1);
+}
