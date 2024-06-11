@@ -1,6 +1,7 @@
 :root {
 	--color-1: #2cccc3;
 	--color-2: #facd3d;
+	--color-3: #5626c4;
 }
 
 .todoList {
@@ -20,4 +21,26 @@
 
 .itemDone {
 	background: var(--color-1);
+}
+
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid var(--color-3);
+	border-left-color: transparent;
+	animation: loader 1s infinite;
+}
+
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
