@@ -88,7 +88,7 @@ export const TodoList = () => {
 			{isAnyLoading && <ModalLoader />}
 
 			<ul className={styles.todoList}>
-				{todosList.length === 0 ? (
+				{Object.keys(todosList).length === 0 ? (
 					<span>Список пуст</span>
 				) : (
 					Object.entries(todosList).map(
