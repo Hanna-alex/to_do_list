@@ -1,0 +1,9 @@
+{
+  "prettier.endOfLine": "auto",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true
+}

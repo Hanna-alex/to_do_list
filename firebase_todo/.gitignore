@@ -4,9 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/task2
-/json_server_todo
-/json_plaseholder_to_do
+
 
 # testing
 /coverage
