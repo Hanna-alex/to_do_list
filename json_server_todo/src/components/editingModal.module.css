@@ -1,0 +1,89 @@
+:root {
+	--main-color: #c7c7c7;
+	--color-1: #2cccc3;
+	--color-2: #fecd45;
+	--color-3: #5626c4;
+	--color-5: #f92c85;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #161616b4;
+}
+
+.changeFormTask {
+	padding: 24px 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #000;
+	border-radius: 8px;
+	border: 1px solid var(--color-1);
+}
+
+.changeInput {
+	flex-basis: 100%;
+	margin-bottom: 24px;
+	padding: 8px 12px;
+	border-radius: 8px;
+	background: #000;
+	color: var(--main-color);
+	outline: none;
+	border: 1px solid var(--color-3);
+	transition: all 0.3s ease;
+}
+
+.changeInput:hover {
+	border: 1px solid var(--color-1);
+}
+
+.changeInput:focus {
+	border: 1px solid var(--color-2);
+}
+
+.changeFormButton {
+	padding: 12px 24px;
+	background: #000;
+	outline: none;
+	border: 1px solid var(--color-3);
+	border-radius: 8px;
+	color: var(--color-3);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.changeFormButton:hover {
+	border: 1px solid var(--color-1);
+	color: var(--color-1);
+}
+
+.changeFormTaskTitle {
+	margin-bottom: 16px;
+}
+
+.changeDescription {
+	resize: none;
+	flex-basis: 100%;
+	margin-bottom: 24px;
+	padding: 8px 12px;
+	border-radius: 8px;
+	background: #000;
+	color: var(--main-color);
+	outline: none;
+	border: 1px solid var(--color-3);
+	transition: all 0.3s ease;
+}
+
+.changeDescription:hover {
+	border: 1px solid var(--color-1);
+}
+
+.changeDescription:focus {
+	border: 1px solid var(--color-2);
+}
